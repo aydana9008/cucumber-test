@@ -1,0 +1,2574 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 139309,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7012643203,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Verify header link 1 of the app",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-header-link-1-of-the-app",
+        "after": [
+          {
+            "result": {
+              "duration": 733019450,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1013531492,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"Bank\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bank\"",
+                  "offset": 15
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_clicks_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9470965,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "title of the page should contain \"Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bank\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.title_of_the_page_should_contain(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34419122,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the first heading text should be \"Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bank\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.the_first_heading_text_should_be(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 67341,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5471387653,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify header link 2 of the app",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-header-link-2-of-the-app",
+        "after": [
+          {
+            "result": {
+              "duration": 719253550,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1079334236,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on \"Borrow\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Borrow\"",
+                  "offset": 15
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_clicks_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5905473,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "title of the page should contain \"Borrow | Northwest Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Borrow | Northwest Bank\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.title_of_the_page_should_contain(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31533212,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the first heading text should be \"Borrow\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Borrow\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.the_first_heading_text_should_be(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 67855,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5128106311,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify header link 3 of the app",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-header-link-3-of-the-app",
+        "after": [
+          {
+            "result": {
+              "duration": 736354646,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 974540871,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on \"Invest\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invest\"",
+                  "offset": 15
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_clicks_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7869681,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "title of the page should contain \"Invest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invest\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.title_of_the_page_should_contain(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34125082,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the first heading text should be \"Invest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invest\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.the_first_heading_text_should_be(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 71968,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5510118160,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify header link 4 of the app",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-header-link-4-of-the-app",
+        "after": [
+          {
+            "result": {
+              "duration": 710718681,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 984727915,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user clicks on \"Insure\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Insure\"",
+                  "offset": 15
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_clicks_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6159416,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "title of the page should contain \"Insure\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Insure\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.title_of_the_page_should_contain(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32314063,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the first heading text should be \"Insure\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Insure\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.the_first_heading_text_should_be(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 84820,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5259939526,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Verify header link 5 of the app",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-header-link-5-of-the-app",
+        "after": [
+          {
+            "result": {
+              "duration": 782975910,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1297443497,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user clicks on \"Plan\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Plan\"",
+                  "offset": 15
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_clicks_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6833858,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "title of the page should contain \"Plan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Plan\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.title_of_the_page_should_contain(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36861402,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the first heading text should be \"Plan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Plan\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.the_first_heading_text_should_be(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 78650,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5680671603,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Verify location search of NW Bank ATM",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-location-search-of-nw-bank-atm",
+        "after": [
+          {
+            "result": {
+              "duration": 793196369,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 226842556,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user enters \"15217\" in zipcode input box and selects \"ATM\" purpose option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15217\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"ATM\"",
+                  "offset": 53
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_enters_in_zipcode_input_box_and_selects_purpose_option(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1717649181,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "clicks on search button",
+            "match": {
+              "location": "nwBankMainPage_Test.clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38284822,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "users \"15217\" zip code information should appear on Result page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15217\"",
+                  "offset": 6
+                }
+              ],
+              "location": "nwBankMainPage_Test.users_zip_code_information_should_appear_on_Result_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 70425,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5011027011,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Verify location search of NW Bank Branch",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-location-search-of-nw-bank-branch",
+        "after": [
+          {
+            "result": {
+              "duration": 757392380,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 272872658,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user enters \"15213\" in zipcode input box and selects \"Branch\" purpose option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15213\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Branch\"",
+                  "offset": 53
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_enters_in_zipcode_input_box_and_selects_purpose_option(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2540812948,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "clicks on search button",
+            "match": {
+              "location": "nwBankMainPage_Test.clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46379659,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "users \"15213\" zip code information should appear on Result page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15213\"",
+                  "offset": 6
+                }
+              ],
+              "location": "nwBankMainPage_Test.users_zip_code_information_should_appear_on_Result_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 120289,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5479262474,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Verify location search of NW Bank ATM and Branch",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-location-search-of-nw-bank-atm-and-branch",
+        "after": [
+          {
+            "result": {
+              "duration": 744405787,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 202845402,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user enters \"15146\" in zipcode input box and selects \"Both\" purpose option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15146\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Both\"",
+                  "offset": 53
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_enters_in_zipcode_input_box_and_selects_purpose_option(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2430877483,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "clicks on search button",
+            "match": {
+              "location": "nwBankMainPage_Test.clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43629974,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "users \"15146\" zip code information should appear on Result page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15146\"",
+                  "offset": 6
+                }
+              ],
+              "location": "nwBankMainPage_Test.users_zip_code_information_should_appear_on_Result_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 59631,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5535021082,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "Verify the Header link contents",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-the-header-link-contents",
+        "after": [
+          {
+            "result": {
+              "duration": 689500512,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6172054485,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user mouse hovers over header links and verifies the following contents:",
+            "match": {
+              "location": "nwBankMainPage_Test.user_mouse_hovers_over_header_links_and_verifies_the_following_contents(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Bank",
+                  "Checking, Savings, Online and Mobile Banking, Other Ways To Connect"
+                ]
+              },
+              {
+                "cells": [
+                  "Borrow",
+                  "Mortgage Loans, Home Equity Loans, Personal Loans, Credit Cards"
+                ]
+              },
+              {
+                "cells": [
+                  "Invest",
+                  "Investments, Financial Planning, Trust Services, Oil, Gas and Mineral"
+                ]
+              },
+              {
+                "cells": [
+                  "Insure",
+                  "Property and Casualty, Life and Disability, Quote Center"
+                ]
+              },
+              {
+                "cells": [
+                  "Plan",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 61173,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5460087163,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 77,
+        "name": "Verify the Bank link contents",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-the-\u003cheader\u003e-link-contents;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 729291518,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36486655,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user mouse hovers over \"Bank\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bank\"",
+                  "offset": 23
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_mouse_hovers_over_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199580119,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "verifies the following \"Bank\" contents :",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bank\"",
+                  "offset": 23
+                }
+              ],
+              "location": "nwBankMainPage_Test.verifies_the_following_contents(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Bank"
+                ]
+              },
+              {
+                "cells": [
+                  "content",
+                  "Checking, Savings, Online and Mobile Banking, Other Ways To Connect"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 60658,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5316002455,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 78,
+        "name": "Verify the Borrow link contents",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-the-\u003cheader\u003e-link-contents;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 719116811,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35145997,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user mouse hovers over \"Borrow\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Borrow\"",
+                  "offset": 23
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_mouse_hovers_over_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 233411676,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "verifies the following \"Borrow\" contents :",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Borrow\"",
+                  "offset": 23
+                }
+              ],
+              "location": "nwBankMainPage_Test.verifies_the_following_contents(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Borrow"
+                ]
+              },
+              {
+                "cells": [
+                  "content",
+                  "Mortgage Loans, Home Equity Loans, Personal Loans, Credit Cards"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 90988,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5415336033,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 79,
+        "name": "Verify the Invest link contents",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-the-\u003cheader\u003e-link-contents;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 695493889,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 33491765,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user mouse hovers over \"Invest\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invest\"",
+                  "offset": 23
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_mouse_hovers_over_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 246627537,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "verifies the following \"Invest\" contents :",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invest\"",
+                  "offset": 23
+                }
+              ],
+              "location": "nwBankMainPage_Test.verifies_the_following_contents(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Invest"
+                ]
+              },
+              {
+                "cells": [
+                  "content",
+                  "Investments, Financial Planning, Trust Services, Oil, Gas and Mineral"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 89446,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5325295557,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 80,
+        "name": "Verify the Insure link contents",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-the-\u003cheader\u003e-link-contents;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 712528672,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36190044,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user mouse hovers over \"Insure\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Insure\"",
+                  "offset": 23
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_mouse_hovers_over_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 250516369,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "verifies the following \"Insure\" contents :",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Insure\"",
+                  "offset": 23
+                }
+              ],
+              "location": "nwBankMainPage_Test.verifies_the_following_contents(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Insure"
+                ]
+              },
+              {
+                "cells": [
+                  "content",
+                  "Property and Casualty, Life and Disability, Quote Center"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 75052,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6471904278,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 81,
+        "name": "Verify the Plan link contents",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-the-\u003cheader\u003e-link-contents;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 709798521,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34759941,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user mouse hovers over \"Plan\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Plan\"",
+                  "offset": 23
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_mouse_hovers_over_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5201318142,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "verifies the following \"Plan\" contents :",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Plan\"",
+                  "offset": 23
+                }
+              ],
+              "location": "nwBankMainPage_Test.verifies_the_following_contents(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "Plan"
+                ]
+              },
+              {
+                "cells": [
+                  "content",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 53462,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5576449868,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 95,
+        "name": "Verify header Bank of the app",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-header-\u003clink\u003e-of-the-app;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 717184989,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 817708093,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "user clicks on \"Bank\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bank\"",
+                  "offset": 15
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_clicks_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8545664,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "title of the page should contain \"Personal Bank | Northwest Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Personal Bank | Northwest Bank\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.title_of_the_page_should_contain(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4583322,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "url address has to be verified",
+            "match": {
+              "location": "nwBankMainPage_Test.url_address_has_to_be_verified(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Title",
+                  "Personal Bank | Northwest Bank"
+                ]
+              },
+              {
+                "cells": [
+                  "URL",
+                  "https://www.northwest.bank/personal/bank"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32556184,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "the first heading text should be \"Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bank\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.the_first_heading_text_should_be(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 478586,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5087148399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 96,
+        "name": "Verify header Borrow of the app",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-header-\u003clink\u003e-of-the-app;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 725607280,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 875305477,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "user clicks on \"Borrow\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Borrow\"",
+                  "offset": 15
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_clicks_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6260686,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "title of the page should contain \"Borrow | Northwest Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Borrow | Northwest Bank\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.title_of_the_page_should_contain(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5176028,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "url address has to be verified",
+            "match": {
+              "location": "nwBankMainPage_Test.url_address_has_to_be_verified(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Title",
+                  "Borrow | Northwest Bank"
+                ]
+              },
+              {
+                "cells": [
+                  "URL",
+                  "https://www.northwest.bank/personal/borrow"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37542011,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "the first heading text should be \"Borrow\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Borrow\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.the_first_heading_text_should_be(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 79678,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5320515351,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 97,
+        "name": "Verify header Invest of the app",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-header-\u003clink\u003e-of-the-app;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 781993549,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 694056075,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "user clicks on \"Invest\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invest\"",
+                  "offset": 15
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_clicks_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9713085,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "title of the page should contain \"Invest | Northwest Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invest | Northwest Bank\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.title_of_the_page_should_contain(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4511354,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "url address has to be verified",
+            "match": {
+              "location": "nwBankMainPage_Test.url_address_has_to_be_verified(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Title",
+                  "Invest | Northwest Bank"
+                ]
+              },
+              {
+                "cells": [
+                  "URL",
+                  "https://www.northwest.bank/personal/invest"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40109206,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "the first heading text should be \"Invest\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invest\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.the_first_heading_text_should_be(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 52433,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5663948340,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 98,
+        "name": "Verify header Insure of the app",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-header-\u003clink\u003e-of-the-app;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 729674490,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 669682632,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "user clicks on \"Insure\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Insure\"",
+                  "offset": 15
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_clicks_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4678422,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "title of the page should contain \"Insure | Northwest Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Insure | Northwest Bank\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.title_of_the_page_should_contain(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4197780,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "url address has to be verified",
+            "match": {
+              "location": "nwBankMainPage_Test.url_address_has_to_be_verified(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Title",
+                  "Insure | Northwest Bank"
+                ]
+              },
+              {
+                "cells": [
+                  "URL",
+                  "https://www.northwest.bank/personal/insure"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32046240,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "the first heading text should be \"Insure\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Insure\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.the_first_heading_text_should_be(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 61687,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4984441072,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 99,
+        "name": "Verify header Plan of the app",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-header-\u003clink\u003e-of-the-app;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 760089116,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1437124289,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "user clicks on \"Plan\" Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Plan\"",
+                  "offset": 15
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_clicks_on_Link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4737539,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "title of the page should contain \"Plan | Northwest Bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Plan | Northwest Bank\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.title_of_the_page_should_contain(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4773008,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "url address has to be verified",
+            "match": {
+              "location": "nwBankMainPage_Test.url_address_has_to_be_verified(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Title",
+                  "Plan | Northwest Bank"
+                ]
+              },
+              {
+                "cells": [
+                  "URL",
+                  "https://www.northwest.bank/personal/plan"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32424585,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "the first heading text should be \"Plan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Plan\"",
+                  "offset": 33
+                }
+              ],
+              "location": "nwBankMainPage_Test.the_first_heading_text_should_be(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 60145,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5733093989,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 109,
+        "name": "Verify location search of NW Bank ATM",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-location-search-of-nw-bank-atm;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 716773230,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 188277060,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "user enters \"15217\" in zipcode input box and selects \"ATM\" purpose option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15217\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"ATM\"",
+                  "offset": 53
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_enters_in_zipcode_input_box_and_selects_purpose_option(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1144151021,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "clicks on search button",
+            "match": {
+              "location": "nwBankMainPage_Test.clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34724985,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "users \"15217\" zip code information should appear on Result page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15217\"",
+                  "offset": 6
+                }
+              ],
+              "location": "nwBankMainPage_Test.users_zip_code_information_should_appear_on_Result_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 82249,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5199844344,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 110,
+        "name": "Verify location search of NW Bank ATM",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-location-search-of-nw-bank-atm;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 726149609,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 161289129,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "user enters \"15213\" in zipcode input box and selects \"Branch\" purpose option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15213\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Branch\"",
+                  "offset": 53
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_enters_in_zipcode_input_box_and_selects_purpose_option(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1083654361,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "clicks on search button",
+            "match": {
+              "location": "nwBankMainPage_Test.clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36331924,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "users \"15213\" zip code information should appear on Result page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15213\"",
+                  "offset": 6
+                }
+              ],
+              "location": "nwBankMainPage_Test.users_zip_code_information_should_appear_on_Result_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 57574,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user uploads nw bank app",
+            "match": {
+              "location": "nwBankMainPage_Test.user_uploads_nw_bank_app()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5311306556,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 111,
+        "name": "Verify location search of NW Bank ATM",
+        "description": "",
+        "id": "verify-home-page-of-nw-bank-application;verify-location-search-of-nw-bank-atm;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 727400306,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 170973940,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "user enters \"15146\" in zipcode input box and selects \"Both\" purpose option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15146\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Both\"",
+                  "offset": 53
+                }
+              ],
+              "location": "nwBankMainPage_Test.user_enters_in_zipcode_input_box_and_selects_purpose_option(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1053115333,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "clicks on search button",
+            "match": {
+              "location": "nwBankMainPage_Test.clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32589084,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "users \"15146\" zip code information should appear on Result page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15146\"",
+                  "offset": 6
+                }
+              ],
+              "location": "nwBankMainPage_Test.users_zip_code_information_should_appear_on_Result_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      }
+    ],
+    "name": "Verify home page of NW Bank application",
+    "description": "",
+    "id": "verify-home-page-of-nw-bank-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/nwbankMain.feature",
+    "tags": [
+      {
+        "name": "@main",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
